@@ -1,1 +1,1 @@
-module.exports = [require('./rules/flat/react-hooks')];
+module.exports = require('./rules/flat/react-hooks');
