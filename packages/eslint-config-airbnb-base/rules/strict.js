@@ -1,5 +1,6 @@
-const base = require('./base/strict');
-
 module.exports = {
-  rules: base.rules
+  rules: {
+    // babel inserts `'use strict';` for us
+    strict: ['error', 'never']
+  }
 };

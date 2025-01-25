@@ -1,11 +1,11 @@
 const globals = require('globals');
-const base = require('../base/es6');
+const baseConfig = require('../es6');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/es6',
   languageOptions: {
     globals: globals.es2015,
-    parserOptions: base.parserOptions
+    parserOptions: baseConfig.parserOptions
   },
-  rules: base.rules
+  rules: baseConfig.rules
 }];

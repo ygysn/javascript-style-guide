@@ -1,6 +1,6 @@
-const base = require('../base/best-practices');
+const baseConfig = require('../best-practices');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/best-practices',
-  rules: base.rules
+  rules: baseConfig.rules
 }];

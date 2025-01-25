@@ -1,4 +1,4 @@
-const base = require('../base/strict');
+const base = require('../strict');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/strict',

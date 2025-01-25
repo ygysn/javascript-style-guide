@@ -1,6 +1,6 @@
-const base = require('../base/errors');
+const baseConfig = require('../errors');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/errors',
-  rules: base.rules
+  rules: baseConfig.rules
 }];

@@ -1,6 +1,6 @@
 const jsxA11yPlugin = require('eslint-plugin-jsx-a11y');
 const reactPlugin = require('eslint-plugin-react');
-const base = require('../base/react-a11y');
+const base = require('../react-a11y');
 
 module.exports = {
   plugins: {

@@ -1,4 +1,4 @@
-const base = require('../base/style');
+const base = require('../style');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/style',

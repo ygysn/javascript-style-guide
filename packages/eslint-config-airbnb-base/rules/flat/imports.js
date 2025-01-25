@@ -1,13 +1,13 @@
 const importPlugin = require('eslint-plugin-import');
 const globals = require('globals');
-const base = require('../base/imports');
+const baseConfig = require('../imports');
 
 module.exports = [importPlugin.flatConfigs.recommended, {
   name: 'eslint-config-airbnb-base/imports',
   languageOptions: {
     globals: globals.es2015,
-    parserOptions: base.parserOptions
+    parserOptions: baseConfig.parserOptions
   },
-  settings: base.settings,
-  rules: base.rules
+  settings: baseConfig.settings,
+  rules: baseConfig.rules
 }];

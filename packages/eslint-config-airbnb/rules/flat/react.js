@@ -1,5 +1,5 @@
 const reactPlugin = require('eslint-plugin-react');
-const base = require('../base/react');
+const base = require('../react');
 
 module.exports = [{
   plugins: {

@@ -1,5 +1,5 @@
 const globals = require('globals');
-const base = require('../base/node');
+const base = require('../node');
 
 module.exports = [{
   name: 'eslint-config-airbnb-base/node',

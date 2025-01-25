@@ -1,5 +1,5 @@
 const reactHooksPlugin = require('eslint-plugin-react-hooks');
-const base = require('../base/react-hooks');
+const base = require('../react-hooks');
 
 module.exports = [{
   plugins: {
