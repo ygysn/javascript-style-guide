@@ -8,6 +8,7 @@
     "./flat": "./flat.js",
     "./legacy": "./legacy.js",
     "./whitespace": "./whitespace.js",
+    "./whitespace-flat": "./whitespace-flat.js",
     "./rules/best-practices": "./rules/best-practices.js",
     "./rules/es6": "./rules/es6.js",
     "./rules/node": "./rules/node.js",

@@ -11,6 +11,7 @@
     "./hooks-flat": "./hooks-flat.js",
     "./legacy": "./legacy.js",
     "./whitespace": "./whitespace.js",
+    "./whitespace-flat": "./whitespace-flat.js",
     "./rules/react": "./rules/react.js",
     "./rules/react-a11y": "./rules/react-a11y.js",
     "./rules/react-hooks": "./rules/react-hooks.js",
