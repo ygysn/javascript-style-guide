@@ -110,6 +110,27 @@ export default [
 
 This entry point only errors on whitespace rules and sets all other rules to warnings. View the list of whitespace rules [here](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/whitespace.js).
 
+If using **flat config**, add `eslint-config-airbnb/whitespace-flat` to `eslint.config.mjs` / `eslint.config.cjs` / `eslint.config.js` :
+```js
+// eslint.config.cjs
+const whitespace = require('eslint-config-airbnb/whitespace-flat');
+
+module.exports = [
+  whitespace,
+  // ......
+];
+```
+
+```js
+// eslint.config.mjs
+import whitespace from 'eslint-config-airbnb/whitespace-flat';
+
+export default [
+  whitespace,
+  // ......
+];
+```
+
 ### eslint-config-airbnb/base
 
 This entry point is deprecated. See [eslint-config-airbnb-base](https://npmjs.com/eslint-config-airbnb-base).

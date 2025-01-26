@@ -116,6 +116,27 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 This entry point only errors on whitespace rules and sets all other rules to warnings. View the list of whitespace rules [here](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/whitespace.js).
 
+If using **flat config**, add `eslint-config-airbnb-base/whitespace-flat` to `eslint.config.mjs` / `eslint.config.cjs` / `eslint.config.js` :
+```js
+// eslint.config.cjs
+const whitespace = require('eslint-config-airbnb-base/whitespace-flat');
+
+module.exports = [
+  whitespace,
+  // ......
+];
+```
+
+```js
+// eslint.config.mjs
+import whitespace from 'eslint-config-airbnb-base/whitespace-flat';
+
+export default [
+  whitespace,
+  // ......
+];
+```
+
 ## Improving this config
 
 Consider adding test cases if you're making complicated rules changes, like anything involving regexes. Perhaps in a distant future, we could use literate programming to structure our README as test cases for our .eslintrc?
