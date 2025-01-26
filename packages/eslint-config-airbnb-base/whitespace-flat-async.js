@@ -25,7 +25,7 @@ async function onlyErrorOnRules(rulesToError, config) {
     rules: config[config.length - 1].rules || {},
   };
   const cli = new ESLint({ baseConfig: config });
-  const baseRules = (await cli.calculateConfigForFile(require.resolve('./'))).rules;
+  const baseRules = (await cli.calculateConfigForFile(require.resolve('./flat'))).rules;
 
   entries(baseRules).forEach((rule) => {
     const ruleName = rule[0];
